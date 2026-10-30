@@ -298,3 +298,6 @@ before the start of February 1, 2024 (you could also compare to `"2024-02-01 00:
 do the same thing).
 
 
+The bike-share-toronto/trips.csv contains 695,724 bike trips. For this problem, you need to compute the median duration of the bike trips. To compute the median of a set of numbers, you first sort the numbers.
+Then, if the count of numbers (size of the set) is odd, you select the number in middle of the sorted numbers as the median. If the count is even, you take the two numbers that straddle the midpoint and average them.
+Since there are 695,724 trips, we need to find out what the 695,724 / 2 = 347,862nd and 347,863rd numbers are in the sorted trip durations and average them. Give a pipeline to show those two numbers. Then use a calculator (not really needed) to average them to determine the median. You should discover that the median trip is 670 seconds.
